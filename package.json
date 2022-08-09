@@ -11,7 +11,7 @@
   "keywords": [
     "NextJS starter"
   ],
-  "author": "ViewCrunch",
+  "author": "AlienForest",
   "license": "MIT",
   "dependencies": {
     "@emotion/cache": "^11.7.1",

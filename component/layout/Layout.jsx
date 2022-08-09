@@ -16,17 +16,17 @@ const Layout = ({ pageProps, Component, store, setDeviceWidthAction }) => {
     <>
       {" "}
       <Head>
-        <title>ViewCrunch: Next.Js Starter</title>
+        <title>AlienForest: Next.Js Starter</title>
         <link rel="manifest" href="/manifest.json" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content={theme.palette.primary.main} />
-        <meta property="og:url" content="https://www.viewcrunch.com/" />
-        <meta name="keywords" content="ViewCrunch, view" />
+        <meta property="og:url" content="https://www.alienforest.com/" />
+        <meta name="keywords" content="AlienForest, view" />
         <meta httpEquiv="Content-Type" content="text/html; charSet=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="ViewCrunch: Sharing your view" />
-        <meta property="og:title" content="ViewCrunch" />
-        <meta property="og:description" content="ViewCrunch: Sharing your view" />
+        <meta name="description" content="AlienForest: Transforming business" />
+        <meta property="og:title" content="AlienForest" />
+        <meta property="og:description" content="AlienForest: Transforming business" />
       </Head>
       <Provider store={store}>
         <div className={styles.layout}>

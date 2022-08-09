@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- SoccerMASS football manager sitemap, some pages that need auth are excluded -->
   <url>
-    <loc>https://www.viewcrunch.com</loc>
+    <loc>https://www.alienforest.com</loc>
     <lastmod>2020-08-08</lastmod>
     <priority>1.00</priority>
   </url>
