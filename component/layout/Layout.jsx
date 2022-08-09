@@ -6,6 +6,7 @@ import { useState, useEffect, useRef } from "react";
 import theme from "@source/theme";
 import { Header, Footer, styles } from ".";
 import { setDeviceWidthAction } from "@store/actions";
+import { Box } from "@mui/material";
 
 const Layout = ({ pageProps, Component, store, setDeviceWidthAction }) => {
   useEffect(() => {
@@ -14,7 +15,6 @@ const Layout = ({ pageProps, Component, store, setDeviceWidthAction }) => {
 
   return (
     <>
-      {" "}
       <Head>
         <title>AlienForest: Next.Js Starter</title>
         <link rel="manifest" href="/manifest.json" />
@@ -31,9 +31,9 @@ const Layout = ({ pageProps, Component, store, setDeviceWidthAction }) => {
       <Provider store={store}>
         <div className={styles.layout}>
           <Header />
-          <div>
+          <Box width="100%" minHeight="calc(100vh - 53px)">
             <Component {...pageProps} />
-          </div>
+          </Box>
           <Footer />
         </div>
       </Provider>

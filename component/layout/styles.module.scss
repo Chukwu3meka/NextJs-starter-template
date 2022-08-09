@@ -2,10 +2,7 @@
 
 .layout {
   margin: 0;
-  padding: 10px;
-  width: 100vw;
-  height: 100vh;
-  font-size: 14px;
+  font-size: 16px;
   box-sizing: border-box;
   font-family: "Merienda", cursive;
   -webkit-box-sizing: border-box;
@@ -14,9 +11,9 @@
 
   * {
     outline: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
+    user-select: none; //disable select
+    -moz-user-select: none; //disable select
+    -webkit-user-select: none; //disable select
     -webkit-tap-highlight-color: transparent;
     img {
       overflow: hidden;
