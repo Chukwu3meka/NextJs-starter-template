@@ -21,12 +21,14 @@ You will also see any lint errors in the console.
 
 ## USE
 
-this is a NextJs starter that includes
+This is a NextJs starter that includes
 
 - Material-UI
 - SASS
 - Redux
 - Google Fonts
+
+Don't forget to run `git remote remove origin` and then update remote repo
 
 ## Author
 
