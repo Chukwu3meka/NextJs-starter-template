@@ -1,10 +1,15 @@
-module.exports = {
-  swcMinify: true,
-  // target: "serverless",
-  // images: {
-  //   domains: ["platform-lookaside.fbsbx.com", "scontent-atl3-2.xx.fbcdn.net"],
-  // },
+/** @type {import('next').NextConfig} */
+
+const nextConfig = {
+  reactStrictMode: false,
+  modularizeImports: {
+    "@mui/material": { transform: "@mui/material/{{ member }}" },
+    "@mui/icons-material": { transform: "@mui/icons-material/{{ member }}" },
+  },
+
   env: {
-    // env should go here
+    BASE_URL: process.env.NODE_ENV === "production" ? "https://soccermass.com" : "http://localhost:3002",
   },
 };
+
+module.exports = nextConfig;
